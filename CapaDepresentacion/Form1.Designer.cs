@@ -58,18 +58,21 @@
             clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             clientesToolStripMenuItem.Size = new Size(180, 24);
             clientesToolStripMenuItem.Text = "Clientes";
+            clientesToolStripMenuItem.Click += clientesToolStripMenuItem_Click;
             // 
             // funcionesToolStripMenuItem
             // 
             funcionesToolStripMenuItem.Name = "funcionesToolStripMenuItem";
             funcionesToolStripMenuItem.Size = new Size(180, 24);
             funcionesToolStripMenuItem.Text = "Funciones";
+            funcionesToolStripMenuItem.Click += funcionesToolStripMenuItem_Click;
             // 
             // reservacionesToolStripMenuItem
             // 
             reservacionesToolStripMenuItem.Name = "reservacionesToolStripMenuItem";
             reservacionesToolStripMenuItem.Size = new Size(180, 24);
             reservacionesToolStripMenuItem.Text = "Reservaciones";
+            reservacionesToolStripMenuItem.Click += reservacionesToolStripMenuItem_Click;
             // 
             // Form1
             // 
