@@ -1,12 +1,13 @@
-﻿using Castle.Components.DictionaryAdapter;
-using System;
-using System.Collections.Generic;
+﻿
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapaDatos.Modelos
+namespace CapadeDatos.Modelos
 {
+    [Table("Clientes")]
     public class ClientesModel : EntidadBase
     {
         [Key]
@@ -16,7 +17,7 @@ namespace CapaDatos.Modelos
         public string Codigo { get; set; }
         [Required]
         [MaxLength(15)]
-        public string DNI { get; set; 
+        public string DNI { get; set; }
         [Required]
         [MaxLength(50)]
         public string Nombres { get; set; }
